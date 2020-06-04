@@ -22,7 +22,7 @@ ________________________________________________________________
 
 - Author: [**VQH-cmd**](https://VQH-cmd.github.io)
 
-- Sync: [**Convergece**](https://github.com/VQH-cmd/Convergece.encrypted)
+- Sync: [**Convergence**](https://github.com/VQH-cmd/Convergence.encrypted)
 
 ________________________________________________________________
 
@@ -30,7 +30,7 @@ ________________________________________________________________
 
 + This project was created using:
 
-	+ [**Convergece**](https://github.com/VQH-cmd/Convergece.encrypted) with:
+	+ [**Convergence**](https://github.com/VQH-cmd/Convergence.encrypted) with:
 
 		- PHP
 
@@ -44,7 +44,7 @@ ________________________________________________________________
 
 		- localhost
 
-> Only edit / touch the file format above to create this Project if using [**Convergece**](https://github.com/VQH-cmd/Convergece.encrypted).
+> Only edit / touch the file format above to create this Project if using [**Convergence**](https://github.com/VQH-cmd/Convergence.encrypted).
 
 ________________________________________________________________
 
