@@ -1,0 +1,15 @@
+User-Agent: *
+
+
+Disallow: /wp-admin/
+Disallow: /wp-content/themes/YOUR_AWESOME_THEME/assets/js/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /mail/
+Disallow: /cgi-bin/
+Disallow: /cart/
+Disallow: /assets/js/
+Disallow: /font/
+Disallow: /mail/
+
+Sitemap: https://www.xml-sitemaps.com

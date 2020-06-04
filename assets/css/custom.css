@@ -1,0 +1,18 @@
+/*
+ *================================================================
+ *
+ *	- Write your own css code here !
+ *
+ *	+ Use "c-" prefix to define your own CSS
+ *		+ or use CSS B.E.M (Blocks, Elements and Modifiers)
+ *	 		- If you do not want your code conflict with "style.css".
+ *
+ *================================================================
+ */
+/*
+ *	This is the example CSS code,
+ *	- You can remove it if you want.
+ *	- Remember to use "c-" prefix !
+ */
+.c-examle_class {
+  display: block; }

@@ -1,0 +1,11 @@
+{
+	"site": {
+		"name": "Monolith",
+		"url": "",
+		"lang": "en",
+		"meta": {
+			"description": "Description",
+			"keywords": "example, template, monolith"
+		}
+	}
+}
