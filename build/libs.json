@@ -1,0 +1,80 @@
+{
+	"frameworks": {
+		"vue"		: 1,
+		"vuex"		: 0,
+
+		"jquery"	: 0
+	},
+
+
+	"requests": {
+		"swup": {
+			"core"		: 1,
+			"ga"		: 1,
+			"debug"		: 0,
+			"body"		: 0,
+			"preload"	: 0
+		},
+
+		"barba":{
+			"core"		: 0,
+			"router"	: 0,
+			"prefetch"	: 0,
+			"css"		: 0
+		},
+
+		"axios"			: 0
+	},
+
+
+	"translate": {
+		"dom_i18n"	: 0
+	},
+
+
+	"effects": {
+		"gsap"			: 0,
+		"threejs"		: 0,
+		"tippy"			: 0,
+		"vanilla_tilt"	: 0
+	},
+
+
+	"scroll": {
+		"inview"			: 0,
+		"scroll_out"		: 1,
+		"vanilla_smoothie"	: 1,
+		"skrollr"			: 0
+	},
+
+
+	"lightbox": {
+		"lightgallery"	: 1
+	},
+
+
+	"slider": {
+		"swiper"	: 0,
+		"splide"	: 1
+	},
+
+
+	"utilities": {
+		"masonry"			: 0,
+		"imagesloaded"		: 1,
+		"isotope"			: 0,
+		"packery"			: 0,
+		"infinite_scroll"	: 0,
+
+		"metismenu"			: 1,
+		"sticky_sidebar"	: 0,
+		"slim_select"		: 0,
+		"choices"			: 0,
+		"flatpickr"			: 0
+	},
+
+
+	"converter": {
+		"luxon"	: 0
+	}
+}
