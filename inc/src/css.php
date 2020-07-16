@@ -5,5 +5,4 @@
 //
 //================================================================
 ?>
-<link href="assets/css/libs.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">

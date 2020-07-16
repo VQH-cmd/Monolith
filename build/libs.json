@@ -36,7 +36,8 @@
 		"gsap"			: 0,
 		"threejs"		: 0,
 		"tippy"			: 0,
-		"vanilla_tilt"	: 0
+		"vanilla_tilt"	: 0,
+		"particles"		: 0
 	},
 
 
@@ -61,8 +62,8 @@
 
 	"utilities": {
 		"masonry"			: 0,
-		"imagesloaded"		: 1,
 		"isotope"			: 0,
+		"imagesloaded"		: 1,
 		"packery"			: 0,
 		"infinite_scroll"	: 0,
 

@@ -1,0 +1,6 @@
+{
+	"purgecss_whitelist": [
+		"aaa",
+		"test"
+	]
+}
