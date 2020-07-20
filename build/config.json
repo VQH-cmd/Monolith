@@ -1,4 +1,26 @@
 {
+	"preprocessor": {
+		"minify_html"	: 0,
+		"pug"			: 0,
+		"php"			: 1,
+		"wp_admin"		: 0,
+		"django"		: 0,
+		"django_static"	: 0
+	},
+
+	"css": {
+		"purge"			: 1
+	},
+
+	"js": {
+		"encrypt"		: 0,
+		"encrypt_level"	: 0
+	},
+
+	"img": {
+		"minify"		: 0
+	},
+
 	"purgecss_whitelist": [
 		"aaa",
 		"test"
