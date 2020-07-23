@@ -1,18 +1,20 @@
 {
 	"preprocessor": {
-		"minify_html"	: 0,
-		"pug"			: 0,
-		"php"			: 1,
+		"minify_html"	: 1,
+		"pug"			: 1,
+		"php"			: 0,
 		"wp_admin"		: 0,
 		"django"		: 0,
 		"django_static"	: 0
 	},
 
 	"css": {
+		"minify"		: 1,
 		"purge"			: 1
 	},
 
 	"js": {
+		"minify"		: 1,
 		"encrypt"		: 0,
 		"encrypt_level"	: 0
 	},

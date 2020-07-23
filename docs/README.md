@@ -18,7 +18,7 @@ ________________________________________________________________
 
 - Framework: **`Monolith.lite`**
 
-- Framework Version: **`5.2.3`**
+- Framework Version: **`5.2.4`**
 
 - Author: [**VQH-cmd**](https://VQH-cmd.github.io)
 
@@ -83,11 +83,17 @@ ________________________________________________________________
 
   "css": {
 
+      "💡NOTE💡": "Minify Option",
+      "minify": 1,
+
       "💡NOTE💡": "Auto remove unused CSS styles",
       "purge": 1
   },
 
   "js": {
+
+      "💡NOTE💡": "Minify Option",
+      "minify": 1,
 
       "💡NOTE💡": "Protect JavaScript files",
       "💡NOTE💡": "⚠️File size will be increased",
