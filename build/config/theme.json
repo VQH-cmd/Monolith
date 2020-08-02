@@ -1,0 +1,83 @@
+{
+
+	"multiple_theme": false,
+
+	"theme": {
+
+		"default": {
+			"type": "dark",
+			"category": {
+				"color": {
+					"m1": "#0EF7D0",
+					"m2": "#83F6FC",
+					"bg": "#282B35",
+					"txt": "#D8ABFC",
+					"err": "#FF5050",
+					"msg": "#66FF99",
+					"warn": "#FFB400"
+				},
+				"gradient": {
+					"gra1": "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)"
+				},
+				"image": {
+					"img1": "url(https://source.unsplash.com/random)"
+				},
+				"misc": {
+					"etc1": "block"
+				}
+			}
+		},
+
+
+		"light": {
+			"type": "light",
+			"category": {
+				"color": {
+					"m1": "#D8ABFC",
+					"m2": "#83F6FC",
+					"bg": "#fff",
+					"txt": "#282B35",
+					"err": "#d43c3c",
+					"msg": "#03a73a",
+					"warn": "#FFB400"
+				},
+				"gradient": {
+					"gra1": "#eee"
+				},
+				"image": {
+					"img1": "url(https://source.unsplash.com/random?earth)"
+				},
+				"misc": {
+					"etc1": "inline"
+				}
+			}
+		},
+
+
+		"test": {
+			"type": false,
+			"category": {
+				"color": {
+					"m1": "#D8ABFC",
+					"m2": "#83F6FC",
+					"bg": "#fff",
+					"txt": "#282B35",
+					"err": "#d43c3c",
+					"msg": "#03a73a",
+					"warn": "#FFB400"
+				},
+				"gradient": {
+					"gra1": "#eee"
+				},
+				"image": {
+					"img1": "url(https://source.unsplash.com/random?nature)"
+				},
+				"misc": {
+					"etc1": "flex"
+				}
+			}
+		}
+
+
+	}
+}

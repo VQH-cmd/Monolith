@@ -9,12 +9,12 @@
 	},
 
 	"css": {
-		"minify"		: 1,
+		"minify"		: 0,
 		"purge"			: 1
 	},
 
 	"js": {
-		"minify"		: 1,
+		"minify"		: 0,
 		"encrypt"		: 0,
 		"encrypt_level"	: 0
 	},

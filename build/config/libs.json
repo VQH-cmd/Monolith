@@ -1,7 +1,11 @@
 {
 	"frameworks": {
-		"vue"		: 1,
-		"vuex"		: 0,
+		"vue": {
+			"core"		: 1,
+			"router"	: 0,
+			"x"			: 0,
+			"i18n"		: 0
+		},
 
 		"jquery"	: 0
 	},
@@ -71,7 +75,9 @@
 		"sticky_sidebar"	: 0,
 		"slim_select"		: 0,
 		"choices"			: 0,
-		"flatpickr"			: 0
+		"flatpickr"			: 0,
+
+		"chart"				: 0
 	},
 
 
