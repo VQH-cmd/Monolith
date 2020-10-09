@@ -13,18 +13,18 @@
 
 	"requests": {
 		"swup": {
-			"core"		: 1,
-			"ga"		: 1,
+			"core"		: 0,
+			"ga"		: 0,
 			"debug"		: 0,
 			"body"		: 0,
 			"preload"	: 0
 		},
 
 		"barba":{
-			"core"		: 0,
+			"core"		: 1,
 			"router"	: 0,
-			"prefetch"	: 0,
-			"css"		: 0
+			"prefetch"	: 1,
+			"css"		: 1
 		},
 
 		"axios"			: 0

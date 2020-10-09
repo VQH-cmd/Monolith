@@ -18,7 +18,7 @@ ________________________________________________________________
 
 - Framework: **`Monolith.lite`**
 
-- Framework Version: **`5.2.5`**
+- Framework Version: **`5.3.0`**
 
 - Author: [**VQH-cmd**](https://VQH-cmd.github.io)
 

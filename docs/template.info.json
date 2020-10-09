@@ -1,0 +1,13 @@
+{
+	"template": {
+		"name": "Monolith",
+		"version": {
+			"type": "Lite",
+			"first": "5.3.0",
+			"latest": "5.3.0"
+		},
+		"revision": "04 October 2020",
+		"core": "gulp",
+		"repo": "https://github.com/VQH-cmd/Monolith.lite"
+	}
+}
