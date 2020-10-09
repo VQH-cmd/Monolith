@@ -7,7 +7,7 @@
 
 ![Monolith.lite](logo.jpg)
 
-# **[ Monolith.lite ]** *framework*
+# **Monolith.lite**
 ________________________________________________________________
 
 ## **`[01]:` Basic Information**
@@ -16,9 +16,9 @@ ________________________________________________________________
 
 - Date created Project: **`Day, Month Year`**
 
-- Framework: **`Monolith.lite`**
+- Template: **`Monolith.lite`**
 
-- Framework Version: **`5.3.0`**
+- Version: **`5.3.0`**
 
 - Author: [**VQH-cmd**](https://VQH-cmd.github.io)
 
@@ -64,21 +64,14 @@ ________________________________________________________________
       "💡NOTE💡": "Minify all '.html' files",
       "minify_html": 0,
 
+      "💡NOTE💡": "Show comment ?",
+      "comment"	: 1,
+
       "💡NOTE💡": "Generate '.html' files with '.pug' files",
       "pug": 0,
 
       "💡NOTE💡": "Is PHP project ?",
       "php": 1,
-
-      "💡NOTE💡": "Apply WordPress admin ?",
-      "wp_admin": 0,
-
-      "💡NOTE💡": "Is Django project ?",
-      "django" : 0,
-
-      "💡NOTE💡": "0 = /global",
-      "💡NOTE💡": "'app_name' = /app_name",
-      "django_static" : 0 or "app_name"
   },
 
   "css": {
