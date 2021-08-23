@@ -1,7 +1,7 @@
 {
 	"Convergence": {
-		"domain": "monolith",
-		"php": "D:/php/php-8.0.9"
+		"domain": "",
+		"php": ""
 	},
 
 	"type": {
@@ -12,7 +12,7 @@
 	"preprocessor": {
 		"minify_html"	: 0,
 		"comment"		: 0,
-		"pug"			: 1,
+		"pug"			: 0,
 		"php"			: 0
 	},
 
