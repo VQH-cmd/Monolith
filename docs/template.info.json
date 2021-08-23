@@ -1,6 +1,6 @@
 {
 	"template": {
-		"name": "Monolith",
+		"name": "Monolith.TheBASE",
 		"version": {
 			"type": "Example",
 			"first": "7.0.7",
