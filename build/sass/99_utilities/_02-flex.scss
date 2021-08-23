@@ -1,0 +1,417 @@
+//================================================================
+// REVIEW Flex Direction
+// Utility
+// @flex @direction
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		fd-row,
+		fd-rerow,
+		fd-col,
+		fd-recol
+	), //$class
+	flex-direction, //$style
+	(
+		row,
+		row-reverse,
+		column,
+		column-reverse
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Flex Wrap
+// Utility
+// @flex @wrap
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		wrap,
+		rewrap,
+		nowrap,
+	), //$class
+	flex-wrap, //$style
+	(
+		wrap,
+		wrap-reverse,
+		nowrap
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Flex
+// Utility
+// @flex
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		flex-1,
+		flex-a,
+		flex-init,
+		flex-none
+	), //$class
+	flex, //$style
+	(
+		1 1 0%,
+		auto,
+		0 1 auto,
+		none
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Flex Grow
+// Utility
+// @flex @grow
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		flex-grow-0,
+		flex-grow
+	), //$class
+	flex-grow, //$style
+	(
+		0,
+		1
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Flex Shrink
+// Utility
+// @flex @shrink
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		flex-shrink-0,
+		flex-shrink
+	), //$class
+	flex-shrink, //$style
+	(
+		0,
+		1
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Order
+// Utility
+// @order
+//================================================================
+//________________________________________________________
+
+@include utility(
+	order, //$class
+	order, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"min": 0,
+			"max": 12,
+			"step": 1
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Justify Content
+// Utility
+// @justify @content
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		ju-s,
+		ju-e,
+		ju-c,
+		ju-sb,
+		ju-sa,
+		ju-se
+	), //$class
+	justify-content, //$style
+	(
+		flex-start,
+		flex-end,
+		center,
+		space-between,
+		space-around,
+		space-evenly
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Justify Items
+// Utility
+// @justify @items
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		jui-a,
+		jui-s,
+		jui-e,
+		jui-c,
+		jui-str
+	), //$class
+	justify-items, //$style
+	(
+		auto,
+		start,
+		end,
+		center,
+		stretch
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Justify Self
+// Utility
+// @justify @self
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		jus-a,
+		jus-s,
+		jus-e,
+		jus-c,
+		jus-str
+	), //$class
+	justify-self, //$style
+	(
+		auto,
+		start,
+		end,
+		center,
+		stretch
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Align Content
+// Utility
+// @align @content @ac
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		ac-c,
+		ac-s,
+		ac-e,
+		ac-sb,
+		ac-sa,
+		ac-se
+	), //$class
+	align-content, //$style
+	(
+		center,
+		flex-start,
+		flex-end,
+		space-between,
+		space-around,
+		space-evenly
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Align Items
+// Utility
+// @align @items @ai
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		ai-s,
+		ai-e,
+		ai-c,
+		ai-b,
+		ai-str,
+	), //$class
+	align-items, //$style
+	(
+		flex-start,
+		flex-end,
+		center,
+		baseline,
+		stretch
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Align Self
+// Utility
+// @align @self @as
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		as-a,
+		as-s,
+		as-e,
+		as-c,
+		as-str,
+	), //$class
+	align-self, //$style
+	(
+		auto,
+		flex-start,
+		flex-end,
+		center,
+		stretch
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________

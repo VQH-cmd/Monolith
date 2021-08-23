@@ -1,0 +1,24 @@
+{
+	"responsive": {
+
+		"active": true,
+
+		"breakpoint": {
+
+			"screen": false,
+			"print": false,
+
+			"max_prefix": false,
+			"min_prefix": "re-",
+
+			"max": {
+				"xs": "600px",
+				"sm": "800px"
+			},
+
+			"min": false
+
+		}
+
+	}
+}

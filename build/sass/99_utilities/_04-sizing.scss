@@ -1,0 +1,764 @@
+//================================================================
+// SECTION Width
+// Utility
+// @width
+//================================================================
+//________________________________________________________
+// STUB Auto
+
+@include utility(
+	w-a, //$class
+	width, //$style
+	auto, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	w, //$class
+	width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 1200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Root Percent
+
+@include utility(
+	w, //$class
+	width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Min
+
+@include utility(
+	minw, //$class
+	min-width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 1500,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Min Percent
+
+@include utility(
+	minw, //$class
+	min-width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Max
+
+@include utility(
+	maxw, //$class
+	max-width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 1200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Max Percent
+
+@include utility(
+	maxw, //$class
+	max-width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB VW
+
+@include utility(
+	w, //$class
+	width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vw",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB VH
+
+@include utility(
+	w, //$class
+	width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vh",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB min-VW
+
+@include utility(
+	minw, //$class
+	min-width, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vw",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB min-VH
+
+@include utility(
+	minw, //$class
+	min-width, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vh",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB max-VW
+
+@include utility(
+	maxw, //$class
+	min-width, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vw",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB max-VH
+
+@include utility(
+	maxw, //$class
+	min-width, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vh",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+// !SECTION Width
+//________________________________________________________
+
+
+
+
+
+
+
+
+//================================================================
+// SECTION Height
+// Utility
+// @height
+//================================================================
+//________________________________________________________
+// STUB Auto
+
+@include utility(
+	h-a, //$class
+	height, //$style
+	auto, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	h, //$class
+	height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 1200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Root Percent
+
+@include utility(
+	h, //$class
+	height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Min
+
+@include utility(
+	minh, //$class
+	min-height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 1500,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Min Percent
+
+@include utility(
+	minh, //$class
+	min-height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Max
+
+@include utility(
+	maxh, //$class
+	max-height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 1200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB Max Percent
+
+@include utility(
+	maxh, //$class
+	max-height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB VW
+
+@include utility(
+	h, //$class
+	height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vw",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB VH
+
+@include utility(
+	h, //$class
+	height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vh",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB min-VW
+
+@include utility(
+	minh, //$class
+	min-height, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vw",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB min-VH
+
+@include utility(
+	minh, //$class
+	min-height, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vh",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB max-VW
+
+@include utility(
+	maxh, //$class
+	min-height, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vw",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+//________________________________________________________
+// STUB max-VH
+
+@include utility(
+	maxh, //$class
+	min-height, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vh",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$color
+	false //$placeholder
+);
+
+// !SECTION Height
+//________________________________________________________

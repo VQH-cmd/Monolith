@@ -1,0 +1,97 @@
+//================================================================
+// REVIEW Fill
+// Utility
+// @fill
+//================================================================
+//________________________________________________________
+
+@include utility(
+	fill, //$class
+	fill, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	true, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Stroke
+// Utility
+// @stroke
+//================================================================
+//________________________________________________________
+
+@include utility(
+	stroke, //$class
+	stroke, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	true, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Stroke Width
+// Utility
+// @stroke @width
+//================================================================
+//________________________________________________________
+
+@include utility(
+	stroke, //$class
+	stroke-width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"min": 0,
+			"max": 12,
+			"step": 1
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________

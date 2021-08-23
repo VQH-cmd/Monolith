@@ -1,0 +1,346 @@
+//================================================================
+// REVIEW Background None
+// Utility
+// @background @bg @none
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		bg-none,
+		bgc-none,
+	), //$class
+	(
+		background,
+		background-color,
+	), //$style
+	(
+		none,
+		transparent,
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Background Color
+// Utility
+// @background @bgc @color
+//================================================================
+//________________________________________________________
+
+@include utility(
+	bgc, //$class
+	background-color, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	true, //$is_$color,
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Background Image
+// Utility
+// @background @bgi @image
+//================================================================
+//________________________________________________________
+// STUB String Extractor
+
+//$bgi_str: map-merge(
+//	map-deep-get($theme, default, category, gradient),
+//	map-deep-get($theme, default, category, image)
+//);
+
+$bgi_class: ();
+$bgi_value: ();
+
+$bgra_class: ();
+$bgra_value: ();
+
+@if map-deep-get($theme, default, category, image) {
+	@each $class, $val in map-deep-get($theme, default, category, image) {
+		$bgi_class: append($bgi_class, 'bgi-'+$class);
+		@if $multiple_theme {
+			$bgi_value: append($bgi_value, var(--image-#{$class}));
+		} @else {
+			$bgi_value: append($bgi_value, $val);
+		}
+	}
+}
+
+@if map-deep-get($theme, default, category, gradient) {
+	@each $class, $val in map-deep-get($theme, default, category, gradient) {
+		$bgra_class: append($bgra_class, 'grad-'+$class);
+		@if $multiple_theme {
+			$bgra_value: append($bgra_value, var(--gradient-#{$class}));
+		} @else {
+			$bgra_value: append($bgra_value, $val);
+		}
+	}
+}
+
+//________________________________________________________
+// STUB Utility: Image
+
+@if map-deep-get($theme, default, category, image) {
+	@include utility(
+		$bgi_class, //$class
+		background-image, //$style
+		$bgi_value, //$value
+		(
+			"active": true,
+			"important": false,
+			"responsive": true,
+			"interact": (
+				"active": false,
+				"focus": false,
+				"focus-within": false,
+				"hover": true,
+				"visited": false
+			)
+		), //$data
+		false, //$is_$color,
+		false //$is_placeholder
+	);
+}
+
+//________________________________________________________
+// STUB Utility: Gradient
+
+@if map-deep-get($theme, default, category, gradient) {
+	@include utility(
+		$bgra_class, //$class
+		background-image, //$style
+		$bgra_value, //$value
+		(
+			"active": true,
+			"important": false,
+			"responsive": true,
+			"interact": (
+				"active": false,
+				"focus": false,
+				"focus-within": false,
+				"hover": true,
+				"visited": false
+			)
+		), //$data
+		false, //$is_$color,
+		false //$is_placeholder
+	);
+}
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Background Attachment
+// Utility
+// @background @bg @attachment
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		bga-fixed,
+		bga-local,
+		bga-scroll
+	), //$class
+	background-attachment, //$style
+	(
+		fixed,
+		local,
+		scroll
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Background Position
+// Utility
+// @background @bg @position
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		bgpos-b,
+		bgpos-c,
+		bgpos-l,
+		bgpos-lb,
+		bgpos-lt,
+		bgpos-r,
+		bgpos-rb,
+		bgpos-rt,
+		bgpos-t
+	), //$class
+	background-position, //$style
+	(
+		bottom,
+		center,
+		left,
+		left bottom,
+		left top,
+		right,
+		right bottom,
+		right top,
+		top
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Background Repeat
+// Utility
+// @background @bg @repeat
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		bgr-re,
+		bgr-nore,
+		bgr-rex,
+		bgr-rey,
+		bgr-reround,
+		bgr-respace
+	), //$class
+	background-repeat, //$style
+	(
+		repeat,
+		no-repeat,
+		repeat-x,
+		repeat-y,
+		round,
+		space
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Background Size
+// Utility
+// @background @bg @size
+//================================================================
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	(
+		bgs-auto,
+		bgs-cover,
+		bgs-contain
+	), //$class
+	background-size, //$style
+	(
+		auto,
+		cover,
+		contain
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Formula
+
+@include utility(
+	bgs, //$class
+	background-size, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Background Size
+//________________________________________________________

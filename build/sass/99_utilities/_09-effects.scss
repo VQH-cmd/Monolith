@@ -1,0 +1,127 @@
+//================================================================
+// REVIEW Opacity
+// Utility
+// @opacity
+//================================================================
+//________________________________________________________
+
+@include utility(
+	opa, //$class
+	opacity, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "fraction",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Transition Duration
+// Utility
+// @transition @duration
+//================================================================
+//________________________________________________________
+
+@include utility(
+	dur, //$class
+	transition-duration, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false,
+		"formula": (
+			"unit": "ms",
+			"min": 0,
+			"max": 5000,
+			"step": 100
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Transition Delay
+// Utility
+// @transition @delay
+//================================================================
+//________________________________________________________
+
+@include utility(
+	delay, //$class
+	transition-delay, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false,
+		"formula": (
+			"unit": "ms",
+			"min": 0,
+			"max": 5000,
+			"step": 100
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Transition Timing Function
+// Utility
+// @transition @timing @function @ttf
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		ttf,
+		ttf-linear
+	), //$class
+	transition-timing-function, //$style
+	(
+		map-get($timing_function, ttf),
+		linear
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________

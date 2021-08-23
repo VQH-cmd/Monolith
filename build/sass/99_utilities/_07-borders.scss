@@ -1,0 +1,284 @@
+//================================================================
+// SECTION Border Radius
+// Utility
+// @bd @border @radius @bdra
+//================================================================
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	(
+		bdra,
+		bdra-tl,
+		bdra-tr,
+		bdra-bl,
+		bdra-br
+	), //$class
+	(
+		border-radius,
+		border-top-left-radius,
+		border-top-right-radius,
+		border-bottom-left-radius,
+		border-bottom-right-radius,
+	), //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Percent
+
+@include utility(
+	(
+		bdra,
+		bdra-tl,
+		bdra-tr,
+		bdra-bl,
+		bdra-br
+	), //$class
+	(
+		border-radius,
+		border-top-left-radius,
+		border-top-right-radius,
+		border-bottom-left-radius,
+		border-bottom-right-radius,
+	), //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Border Radius
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Border Width
+// Utility
+// @bd @border @width @bdw
+//================================================================
+//________________________________________________________
+
+@include utility(
+	bdw, //$class
+	border-width, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 12,
+			"step": 1
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Border Color
+// Utility
+// @bd @border @color @bdc
+//================================================================
+//________________________________________________________
+
+@include utility(
+	bdc, //$class
+	border-color, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	true, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Border Style
+// Utility
+// @bd @border @style
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		bd-solid,
+		bd-dashed,
+		bd-dotted,
+		bd-double,
+		bd-none,
+
+		bdt-solid,
+		bdr-solid,
+		bdb-solid,
+		bdl-solid,
+
+		bdt-dashed,
+		bdr-dashed,
+		bdb-dashed,
+		bdl-dashed,
+
+		bdt-dotted,
+		bdr-dotted,
+		bdb-dotted,
+		bdl-dotted,
+
+		bdt-double,
+		bdr-double,
+		bdb-double,
+		bdl-double,
+
+		bdt-none,
+		bdr-none,
+		bdb-none,
+		bdl-none
+	), //$class
+	(
+		border-style,
+		border-style,
+		border-style,
+		border-style,
+		border-style,
+
+		border-top-style,
+		border-right-style,
+		border-bottom-style,
+		border-left-style,
+
+		border-top-style,
+		border-right-style,
+		border-bottom-style,
+		border-left-style,
+
+		border-top-style,
+		border-right-style,
+		border-bottom-style,
+		border-left-style,
+
+		border-top-style,
+		border-right-style,
+		border-bottom-style,
+		border-left-style,
+
+		border-top-style,
+		border-right-style,
+		border-bottom-style,
+		border-left-style
+	), //$style
+	(
+		solid,
+		dashed,
+		dotted,
+		double,
+		none,
+
+		solid,
+		solid,
+		solid,
+		solid,
+
+		dashed,
+		dashed,
+		dashed,
+		dashed,
+
+		dotted,
+		dotted,
+		dotted,
+		dotted,
+
+		double,
+		double,
+		double,
+		double,
+
+		none,
+		none,
+		none,
+		none
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________

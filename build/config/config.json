@@ -1,18 +1,34 @@
 {
+	"Convergence": {
+		"domain": "monolith",
+		"php": "D:/php/php-8.0.9"
+	},
+
+	"type": {
+		"core": "default",
+		"hint": "default TheBASE Shopify"
+	},
+
 	"preprocessor": {
-		"minify_html"	: 1,
+		"minify_html"	: 0,
 		"comment"		: 1,
-		"pug"			: 1,
-		"php"			: 0
+		"pug"			: 0,
+		"php"			: 1
 	},
 
 	"css": {
-		"minify"		: 1,
-		"purge"			: 1
+		"minify"		: 0,
+		"purge"			: 0,
+		"ignore": {
+			"js"		: 0,
+			"html"		: 0,
+			"pug"		: 0,
+			"php"		: 0
+		}
 	},
 
 	"js": {
-		"minify"		: 1,
+		"minify"		: 0,
 		"encrypt"		: 0,
 		"encrypt_level"	: 0
 	},
@@ -21,8 +37,8 @@
 		"minify"		: 0
 	},
 
-	"purgecss_whitelist": [
-		"aaa",
-		"test"
-	]
+	"copy": {
+		"fontawesome"	: 0,
+		"lightgallery"	: 1
+	}
 }

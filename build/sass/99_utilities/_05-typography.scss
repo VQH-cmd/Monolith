@@ -1,0 +1,770 @@
+//================================================================
+// SECTION Font Face
+//
+// @font @face @ff
+//================================================================
+//________________________________________________________
+// STUB Roboto
+
+@include fonts(
+	"Roboto", // $family
+	"font1", // $name
+	(100, 200, 300, 400, 500, 600, 700, 800, 900), // $weights
+	(normal, italic), // $styles
+	"../fonts/", // $src
+	(ttf, otf) // $formats
+);
+
+// !SECTION Font Face
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Font Family
+//
+// @font @family @ff
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		ff-1,
+		ff-2
+	), //$class
+	font-family, //$style
+	(
+		font1,
+		font2
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Font Size
+// Utility
+// @font @size @fs
+//================================================================
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	fs, //$class
+	font-size, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 10,
+			"max": 64,
+			"step": 2
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB VW
+
+@include utility(
+	fs, //$class
+	font-size, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vw",
+			"min": 1,
+			"max": 30,
+			"step": 1
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB VH
+
+@include utility(
+	fs, //$class
+	font-size, //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "vh",
+			"min": 1,
+			"max": 30,
+			"step": 1
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Font Size
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Font Style
+// Utility
+// @font @style @fsty
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		fsty-i,
+		fsty-n
+	), //$class
+	font-style, //$style
+	(
+		italic,
+		normal
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Font Weight
+// Utility
+// @font @weight @fw
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		fw-100,
+		fw-200,
+		fw-300,
+		fw-400,
+		fw-500,
+		fw-600,
+		fw-700,
+		fw-800,
+		fw-900
+	), //$class
+	font-weight, //$style
+	(
+		100,
+		200,
+		300,
+		400,
+		500,
+		600,
+		700,
+		800,
+		900
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Letter Spacing
+// Utility
+// @letter @spacing @ls
+//================================================================
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	ls, //$class
+	letter-spacing, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": -5,
+			"max": 10,
+			"step": 1
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB em
+
+@include utility(
+	ls, //$class
+	letter-spacing, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "em",
+			"min": 0,
+			"max": 200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Letter Spacing
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Line Height
+// Utility
+// @line @height @lh
+//================================================================
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	lh, //$class
+	line-height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 10,
+			"max": 64,
+			"step": 2
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Ratio
+
+@include utility(
+	lh, //$class
+	line-height, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "ratio",
+			"min": 100,
+			"max": 300,
+			"step": 10
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Line Height
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Text Align
+// Utility
+// @text @align @ta
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		ta-l,
+		ta-c,
+		ta-r,
+		ta-j
+	), //$class
+	text-align, //$style
+	(
+		left,
+		center,
+		right,
+		justify
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Text Color
+// Utility
+// @text @color
+//================================================================
+//________________________________________________________
+
+@include utility(
+	co, //$class
+	color, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	true, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Text Decoration
+// Utility
+// @text @decoration @td
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		td-u,
+		td-lt,
+		td-none
+	), //$class
+	text-decoration, //$style
+	(
+		underline,
+		line-through,
+		none
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Text Transform
+// Utility
+// @text @transform @tt
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		tt-up,
+		tt-low,
+		tt-cap,
+		tt-none
+	), //$class
+	text-transform, //$style
+	(
+		uppercase,
+		lowercase,
+		capitalize,
+		none
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": false,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Vertical Alignment
+// Utility
+// @vertical @align @va
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		va-base,
+		va-top,
+		va-mid,
+		va-bot,
+		va-ttop,
+		va-tbot
+	), //$class
+	vertical-align, //$style
+	(
+		baseline,
+		top,
+		middle,
+		bottom,
+		text-top,
+		text-bottom
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Whitespace
+// Utility
+// @whitespace @ws
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		ws-normal,
+		ws-nowrap,
+		ws-pre,
+		ws-preline,
+		ws-prewrap
+	), //$class
+	white-space, //$style
+	(
+		normal,
+		nowrap,
+		pre,
+		pre-line,
+		pre-wrap
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Word Break
+// Utility
+// @wb @word @break
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		wb-normal,
+		wb-bw,
+		wb-ba,
+		wb-ka
+	), //$class
+	word-break, //$style
+	(
+		normal,
+		break-word,
+		break-all,
+		keep-all
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW List Style Type
+// Utility
+// @list @style @type
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		list-none,
+		list-disc,
+		list-decimal
+	), //$class
+	list-style-type, //$style
+	(
+		none,
+		disc,
+		decimal
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW List Style Position
+// Utility
+// @list @style @position
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		list-in,
+		list-out
+	), //$class
+	list-style-position, //$style
+	(
+		inside,
+		outside
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Placeholder Color
+// Utility
+// @placeholder @color @pco
+//================================================================
+//________________________________________________________
+
+@include utility(
+	pco, //$class
+	color, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": true,
+			"visited": false
+		)
+	), //$data
+	true, //$is_$color,
+	true //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Write Mode
+// Utility
+// @write @mode @wm
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		wm-h,
+		wm-v
+	), //$class
+	writing-mode, //$style
+	(
+		horizontal-tb,
+		vertical-rl
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color,
+	false //$is_placeholder
+);
+
+//________________________________________________________

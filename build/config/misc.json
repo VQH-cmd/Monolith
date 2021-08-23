@@ -1,0 +1,42 @@
+{
+
+	"separate": {
+		"core": "\\:",
+		"formula": "'-'"
+	},
+
+	"timing_function": {
+		"ttf": "cubic-bezier(0.45, 0.05, 0.55, 0.95)"
+	},
+
+	"important": "-i",
+
+	"interact": {
+		"active": "ac",
+		"focus": "fo",
+		"focus-within": "fw",
+		"hover": "ho",
+		"visited": "vs"
+	},
+
+	"pseudo": {
+		"active": true,
+		"before": "bf",
+		"after": "af"
+	},
+
+	"group": {
+		"active": true,
+		"parent": "g",
+		"child": "g-"
+	},
+
+	"hyperion": {
+		"active": true,
+		"list": {
+			"active": "active",
+			"open": "open"
+		}
+	}
+
+}

@@ -2,12 +2,17 @@
 	"template": {
 		"name": "Monolith",
 		"version": {
-			"type": "Lite",
-			"first": "5.3.0",
-			"latest": "5.3.0"
+			"type": "Example",
+			"first": "7.0.7",
+			"latest": "7.0.7"
 		},
-		"revision": "04 October 2020",
+		"revision": "21 August 2021",
 		"core": "gulp",
-		"repo": "https://github.com/VQH-cmd/Monolith.lite"
+		"repo": "https://github.com/VQH-cmd/Monolith"
+	},
+
+	"coder": {
+		"name": "VQH-cmd",
+		"website": "https://VQH-cmd.github.io"
 	}
 }

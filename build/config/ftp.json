@@ -1,0 +1,7 @@
+{
+	"enable": true,
+	"host": "monolith.ftp",
+	"user": "vqh-cmd",
+	"password": "password",
+	"dir_ftp": "/test"
+}

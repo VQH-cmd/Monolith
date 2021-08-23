@@ -1,0 +1,490 @@
+//================================================================
+// REVIEW Box Sizing
+// Utility
+// @box @sizing
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		box-border,
+		box-content
+	), //$class
+	box-sizing, //$style
+	(
+		border-box, content-box
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Display
+// Utility
+// @display
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		block,
+		iblock,
+		flex,
+		iflex,
+		inline,
+		tab,
+		tab-cap,
+		tab-cell,
+		tab-col,
+		tab-col-g,
+		tab-head-g,
+		tab-foot-g,
+		tab-row-g,
+		tab-row,
+		contents,
+		hide
+	), //$class
+	display, //$style
+	(
+		block,
+		inline-block,
+		flex,
+		inline-flex,
+		inline,
+		table,
+		table-caption,
+		table-cell,
+		table-column,
+		table-column-group,
+		table-header-group,
+		table-footer-group,
+		table-row-group,
+		table-row,
+		contents,
+		none
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Float
+// Utility
+// @floats
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		fl,
+		fr,
+		fn
+	), //$class
+	float, //$style
+	(
+		left,
+		right,
+		none
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Overflow
+// Utility
+// @overflow @of
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		of-auto,
+		of-hide,
+		of-show,
+		of-scroll,
+
+		ofx-auto,
+		ofx-hide,
+		ofx-show,
+		ofx-scroll,
+
+		ofy-auto,
+		ofy-hide,
+		ofy-show,
+		ofy-scroll
+	), //$class
+	(
+		overflow,
+		overflow,
+		overflow,
+		overflow,
+
+		overflow-x,
+		overflow-x,
+		overflow-x,
+		overflow-x,
+
+		overflow-y,
+		overflow-y,
+		overflow-y,
+		overflow-y,
+	), //$style
+	(
+		auto,
+		hidden,
+		visible,
+		scroll,
+
+		auto,
+		hidden,
+		visible,
+		scroll,
+
+		auto,
+		hidden,
+		visible,
+		scroll
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Position
+// Utility
+// @position
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		pos-r,
+		pos-a,
+		pos-f,
+		pos-s,
+		pos-st
+	), //$class
+	position, //$style
+	(
+		relative,
+		absolute,
+		fixed,
+		static,
+		sticky
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Visibility
+// Utility
+// @visibility
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		vis,
+		invis
+	), //$class
+	visibility, //$style
+	(
+		visible,
+		hidden
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Z-Index
+// Utility
+// @zindex @z @index
+//================================================================
+//________________________________________________________
+// STUB Auto
+
+@include utility(
+	z-a, //$class
+	z-index, //$style
+	auto, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Formula
+
+@include utility(
+	z, //$class
+	z-index, //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"min": -1,
+			"max": 100,
+			"step": 1
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+// !SECTION Z-Index
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Top-Right-Bottom-Left
+// Utility
+// @top @right @bottom @left
+//================================================================
+//________________________________________________________
+// STUB Auto
+
+@include utility(
+	(t-a,r-a,b-a,l-a), //$class
+	(top, right, bottom, left), //$style
+	auto, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Formula
+
+@include utility(
+	(t,r,b,l), //$class
+	(top, right, bottom, left), //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": -200,
+			"max": 200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Formula Percent
+
+@include utility(
+	(t,r,b,l), //$class
+	(top, right, bottom, left), //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": -100,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+// !SECTION Top-Right-Bottom-Left
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Centering
+// Utility
+// @centering
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		center-a,
+		center-ax,
+		center-ay
+	), //$class
+	(
+		(transform, top, left),
+		(transform, left),
+		(transform, top)
+	), //$style
+	(
+		(translate(-50%, -50%), 50%, 50%),
+		(translateX(-50%), 50%),
+		(translateY(-50%), 50%)
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Object Fit
+// Utility
+// @object @fit
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		objf-contain,
+		objf-cover,
+		objf-fill,
+		objf-scale,
+		objf-none
+	), //$class
+	object-fit, //$style
+	(
+		contain, cover, fill, scale-down, none
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Object Position
+// Utility
+// @object @position
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		objp-l,
+		objp-r,
+		objp-c
+	), //$class
+	object-position, //$style
+	(
+		left, right, center
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________

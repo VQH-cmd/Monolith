@@ -1,0 +1,236 @@
+//================================================================
+// SECTION Padding
+// Utility
+// @padding
+//================================================================
+//________________________________________________________
+// STUB Root
+
+@include utility(
+	(
+		p, px, py, pt, pr, pb, pl
+	), //$class
+	(
+		padding,
+		(padding-left, padding-right),
+		(padding-top, padding-bottom),
+		padding-top,
+		padding-right,
+		padding-bottom,
+		padding-left
+	), //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": 0,
+			"max": 200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Percent
+
+@include utility(
+	(
+		p, px, py, pt, pr, pb, pl
+	), //$class
+	(
+		padding,
+		(padding-left, padding-right),
+		(padding-top, padding-bottom),
+		padding-top,
+		padding-right,
+		padding-bottom,
+		padding-left
+	), //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": 0,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Aspect Ratio
+
+@include utility(
+	(
+		pb-as-16\/9
+	), //$class
+	(
+		padding-bottom
+	), //$style
+	(
+		calc(100% / (16/9))
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+// !SECTION Padding
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Margin
+// Utility
+// @margin
+//================================================================
+//________________________________________________________
+// STUB Auto
+
+@include utility(
+	(
+		m-a, mx-a, my-a, mt-a, mr-a, mb-a, ml-a
+	), //$class
+	(
+		margin,
+		(margin-left, margin-right),
+		(margin-top, margin-bottom),
+		margin-top,
+		margin-right,
+		margin-bottom,
+		margin-left
+	), //$style
+	auto, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Formulas
+
+@include utility(
+	(
+		m, mx, my, mt, mr, mb, ml
+	), //$class
+	(
+		margin,
+		(margin-left, margin-right),
+		(margin-top, margin-bottom),
+		margin-top,
+		margin-right,
+		margin-bottom,
+		margin-left
+	), //$style
+	false, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "px",
+			"min": -200,
+			"max": 200,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+// STUB Formulas Percent
+
+@include utility(
+	(
+		m, mx, my, mt, mr, mb, ml
+	), //$class
+	(
+		margin,
+		(margin-left, margin-right),
+		(margin-top, margin-bottom),
+		margin-top,
+		margin-right,
+		margin-bottom,
+		margin-left
+	), //$style
+	false, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true,
+		"formula": (
+			"unit": "%",
+			"min": -100,
+			"max": 100,
+			"step": 5
+		),
+		"interact": (
+			"active": false,
+			"focus": false,
+			"focus-within": false,
+			"hover": false,
+			"visited": false
+		)
+	), //$data
+	false, //$is_color
+	false //$is_placeholder
+);
+
+// !SECTION Margin
+//________________________________________________________

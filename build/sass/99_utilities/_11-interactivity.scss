@@ -1,0 +1,188 @@
+//================================================================
+// REVIEW Appearance
+// Utility
+// @appearance
+//================================================================
+//________________________________________________________
+
+@include utility(
+	appear-none, //$class
+	appearance, //$style
+	none, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Outline
+// Utility
+// @outline
+//================================================================
+//________________________________________________________
+
+@include utility(
+	outline-none, //$class
+	outline, //$style
+	0, //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Cursor
+// Utility
+// @cursor
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		cur-auto,
+		cur-default,
+		cur-pointer,
+		cur-wait,
+		cur-text,
+		cur-move,
+		cur-not-allowed
+	), //$class
+	cursor, //$style
+	(
+		auto,
+		default,
+		pointer,
+		wait,
+		text,
+		move,
+		not-allowed
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Pointer Events
+// Utility
+// @pointer @events
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		pe-none,
+		pe-auto
+	), //$class
+	pointer-events, //$style
+	(
+		none,
+		auto
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Resize
+// Utility
+// @resize
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		resize-none,
+		resize-v,
+		resize-h,
+		resize-all
+	), //$class
+	resize, //$style
+	(
+		none,
+		vertical,
+		horizontal,
+		both
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW User Select
+// Utility
+// @user @select
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		sel-none,
+		sel-text,
+		sel-all,
+		sel-auto
+	), //$class
+	user-select, //$style
+	(
+		none,
+		text,
+		all,
+		auto
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________

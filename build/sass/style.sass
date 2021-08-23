@@ -1,0 +1,50 @@
+@charset "UTF-8"
+
+
+//================================================================
+// SECTION Library
+//
+// @libs
+//================================================================
+//________________________________________________________
+
+//@import "@fortawesome/fontawesome-free/css/all.min"
+
+
+/* purgecss start ignore */
+@import "animate.css/animate.min"
+@import "swiper/swiper-bundle.min"
+@import "lightgallery/css/lightgallery-bundle.min"
+@import "metismenujs/scss/metismenujs"
+/* purgecss end ignore */
+
+// !SECTION Library
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Monolith
+//
+// @monolith
+//================================================================
+//________________________________________________________
+
+@import "../config/theme.json"
+@import "../config/misc.json"
+@import "../config/breakpoint.json"
+
+@import "@vqh-cmd/sassolith/all"
+
+/* purgecss start ignore */
+@import "01_base/*"
+/* purgecss end ignore */
+
+@import "02_component/*"
+@import "03_project/*"
+
+//@import "99_utilities/*"
+
+// !SECTION Monolith
+//________________________________________________________

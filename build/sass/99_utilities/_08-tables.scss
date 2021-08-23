@@ -1,0 +1,62 @@
+//================================================================
+// REVIEW Border Collapse
+// Utility
+// @tab @border @collapse
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		tab-collapse,
+		tab-separate,
+	), //$class
+	(
+		border-collapse
+	), //$style
+	(
+		collapse,
+		separate
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Table Layout
+// Utility
+// @tab @layout
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		tab-auto,
+		tab-fixed,
+	), //$class
+	(
+		table-layout
+	), //$style
+	(
+		auto,
+		fixed
+	), //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": false
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________

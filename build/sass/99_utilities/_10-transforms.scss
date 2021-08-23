@@ -1,0 +1,446 @@
+//================================================================
+// REVIEW Transforms
+//
+// @transforms
+//================================================================
+//________________________________________________________
+
+$transforms: false;
+
+@if $transforms {
+	:root {
+		--trans-translate-x: 0;
+		--trans-translate-y: 0;
+		--trans-rotate: 0;
+		--trans-rotate-x: 0;
+		--trans-rotate-y: 0;
+		--trans-skew-x: 0;
+		--trans-skew-y: 0;
+		--trans-scale-x: 1;
+		--trans-scale-y: 1;
+	}
+	.trans {
+		transform:
+			translateX(var(--trans-translate-x))
+			translateY(var(--trans-translate-y))
+			rotate(var(--trans-rotate))
+			skewX(var(--trans-skew-x))
+			skewY(var(--trans-skew-y))
+			scaleX(var(--trans-scale-x))
+			scaleY(var(--trans-scale-y))
+	}
+}
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Scale
+// Utility
+// @scale
+//================================================================
+//________________________________________________________
+// REVIEW Data
+
+$trans-scale: (
+	"active": true,
+	"important": false,
+	"responsive": true,
+	"formula": (
+		"unit": "fraction",
+		"min": 0,
+		"max": 200,
+		"step": 5
+	),
+	"interact": (
+		"active": false,
+		"focus": false,
+		"focus-within": false,
+		"hover": true,
+		"visited": false
+	)
+);
+
+//________________________________________________________
+// STUB Var
+
+@if $transforms {
+	@include utility(
+		(
+			scale,
+			scaleX,
+			scaleY
+		), //$class
+		(
+			(--trans-scale-x, --trans-scale-y),
+			--trans-scale-x,
+			--trans-scale-y
+		), //$style
+		false, //$value
+		$trans-scale, //$data
+		false, //$is_$color
+		false //$is_placeholder
+	);
+}
+
+//________________________________________________________
+// STUB Trans
+
+@include utility(
+	(
+		trans-scale,
+		trans-scaleX,
+		trans-scaleY
+	), //$class
+	transform, //$style
+	(
+		scale,
+		scaleX,
+		scaleY
+	), //$value
+	$trans-scale, //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Scale
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Rotate
+// Utility
+// @rotate
+//================================================================
+//________________________________________________________
+// REVIEW Data
+
+$trans-rotate: (
+	"active": true,
+	"important": false,
+	"responsive": true,
+	"formula": (
+		"unit": "deg",
+		"min": -180,
+		"max": 180,
+		"step": 45
+	),
+	"interact": (
+		"active": false,
+		"focus": false,
+		"focus-within": false,
+		"hover": true,
+		"visited": false
+	)
+);
+
+//________________________________________________________
+// STUB Var
+
+@if $transforms {
+	@include utility(
+		(
+			rotate,
+			rotateX,
+			rotateY
+		), //$class
+		(
+			--trans-rotate,
+			--trans-rotate-x,
+			--trans-rotate-y
+		), //$style
+		false, //$value
+		$trans-rotate, //$data
+		false, //$is_$color
+		false //$is_placeholder
+	);
+}
+
+//________________________________________________________
+// STUB Trans
+
+@include utility(
+	(
+		trans-rotate,
+		trans-rotateX,
+		trans-rotateY
+	), //$class
+	transform, //$style
+	(
+		rotate,
+		rotateX,
+		rotateY
+	), //$value
+	$trans-rotate, //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Rotate
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Translate
+// Utility
+// @translate
+//================================================================
+//________________________________________________________
+// REVIEW Var
+
+$trans-transforms: (
+	"active": false,
+	"important": false,
+	"responsive": true,
+	"formula": (
+		"unit": "px",
+		"min": -200,
+		"max": 200,
+		"step": 5
+	),
+	"interact": (
+		"active": false,
+		"focus": false,
+		"focus-within": false,
+		"hover": true,
+		"visited": false
+	)
+);
+
+$trans-transforms-percent: (
+	"active": true,
+	"important": false,
+	"responsive": true,
+	"formula": (
+		"unit": "%",
+		"min": -100,
+		"max": 100,
+		"step": 100
+	),
+	"interact": (
+		"active": false,
+		"focus": false,
+		"focus-within": false,
+		"hover": true,
+		"visited": false
+	)
+);
+
+//________________________________________________________
+// STUB Var
+
+@if $transforms {
+	@include utility(
+		(
+			translateX,
+			translateY
+		), //$class
+		(
+			--trans-translate-x,
+			--trans-translate-y
+		), //$style
+		false, //$value
+		$trans-transforms, //$data
+		false, //$is_$color
+		false //$is_placeholder
+	);
+
+
+	@include utility(
+		(
+			translateX,
+			translateY
+		), //$class
+		(
+			--trans-translate-x,
+			--trans-translate-y
+		), //$style
+		false, //$value
+		$trans-transforms-percent, //$data
+		false, //$is_$color
+		false //$is_placeholder
+	);
+
+}
+
+//________________________________________________________
+// STUB Trans
+
+@include utility(
+	(
+		trans-translateX,
+		trans-translateY
+	), //$class
+	transform, //$style
+	(
+		translateX,
+		translateY,
+	), //$value
+	$trans-transforms, //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+@include utility(
+	(
+		trans-translateX,
+		trans-translateY
+	), //$class
+	transform, //$style
+	(
+		translateX,
+		translateY,
+	), //$value
+	$trans-transforms-percent, //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Translate
+//________________________________________________________
+
+
+
+
+//================================================================
+// SECTION Skew
+// Utility
+// @skew
+//================================================================
+//________________________________________________________
+// REVIEW Data
+
+$trans-skew: (
+	"active": false,
+	"important": false,
+	"responsive": true,
+	"formula": (
+		"unit": "deg",
+		"min": -45,
+		"max": 45,
+		"step": 3
+	),
+	"interact": (
+		"active": false,
+		"focus": false,
+		"focus-within": false,
+		"hover": true,
+		"visited": false
+	)
+);
+
+//________________________________________________________
+// STUB Var
+
+@if $transforms {
+
+	@include utility(
+		(
+			skewX,
+			skewY
+		), //$class
+		(
+			--trans-skew-x,
+			--trans-skew-y
+		), //$style
+		false, //$value
+		$trans-skew, //$data
+		false, //$is_$color
+		false //$is_placeholder
+	);
+
+}
+
+//________________________________________________________
+// STUB Trans
+
+@include utility(
+	(
+		trans-skewX,
+		trans-skewY
+	), //$class
+	transform, //$style
+	(skewX, skewY), //$value
+	$trans-skew, //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+// !SECTION Skew
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Transform Origin
+// Utility
+// @transform @origin
+//================================================================
+//________________________________________________________
+
+@include utility(
+	(
+		origin-c,
+		origin-t,
+		origin-tr,
+		origin-r,
+		origin-br,
+		origin-b,
+		origin-bl,
+		origin-l,
+		origin-tl
+	), //$class
+	transform-origin, //$style
+	(
+		center,
+		top,
+		top right,
+		right,
+		bottom right,
+		bottom,
+		bottom left,
+		left,
+		top left
+	), //$value
+	(
+		"active": false,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________
+
+
+
+
+//================================================================
+// REVIEW Transform None
+// Utility
+// @transform @none
+//================================================================
+//________________________________________________________
+
+@include utility(
+	trans-none, //$class
+	transform, //$style
+	none, //$value
+	(
+		"active": true,
+		"important": false,
+		"responsive": true
+	), //$data
+	false, //$is_$color
+	false //$is_placeholder
+);
+
+//________________________________________________________

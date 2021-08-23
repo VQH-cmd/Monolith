@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"lib": ["es6", "dom", "es2017"],
+		"noImplicitAny": true,
+		"removeComments": true,
+		"module" : "commonjs",
+		"declaration": true,
+		"skipLibCheck": true,
+		"declarationFiles": true,
+		"allowJs": true,
+		"types": ["node"],
+		"target": "ES3"
+	}
+}
