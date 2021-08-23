@@ -1,0 +1,9 @@
+dev:
+  password: shppa_000000000000000000000000000d32
+  theme_id: "000000000012"
+  store: vqh-cmd.myshopify.com
+
+prod:
+  password: shppa_000000000000000000000000000p32
+  theme_id: "10000000012"
+  store: vqh-cmd.myshopify.com

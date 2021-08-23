@@ -5,15 +5,15 @@
 	},
 
 	"type": {
-		"core": "default",
+		"core": "Shopify",
 		"hint": "default TheBASE Shopify"
 	},
 
 	"preprocessor": {
 		"minify_html"	: 0,
-		"comment"		: 1,
-		"pug"			: 0,
-		"php"			: 1
+		"comment"		: 0,
+		"pug"			: 1,
+		"php"			: 0
 	},
 
 	"css": {
